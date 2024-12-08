@@ -4,13 +4,24 @@ This repository contains a collection of games I have developed, focusing on cor
 
 ---
 
-### :boat: **Battleship Game**
+### ⛵ **Battleship Game**
 - **Description**: A console-based implementation of the classic Battleship game. Players place ships on their grids and take turns attacking the opponent's grid to sink all ships.
 - **Features**:
     - Validates ship placement (e.g., non-overlapping, within grid).
     - Randomized turn selection and alternating gameplay.
     - Visual feedback for hits, misses, and sunk ships.
 - **Technologies**: Java
+
+---
+
+### ⏳ **Game of Life**
+- **Description**: A competitive, console-based twist on Conway's Game of Life where two players alternate turns to dominate the board.
+- **Features**:
+    - Players take turns eliminating opponent cells and occupying new ones.
+    - Grid evolves according to the rules of Conway's Game of Life after each turn.
+    - Players are eliminated when they have no live cells remaining.
+- **Technologies**: Java
+- **More Info**: See the [Wikipedia article on Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 ---
 
