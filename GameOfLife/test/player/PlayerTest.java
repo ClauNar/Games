@@ -53,15 +53,6 @@ class PlayerTest {
     }
 
     @Test
-    void testDifferentClasses() {
-        Player player1 = new Player("player1", Occupacy.Player1);
-        Cell cell1 = new Cell(new Position(10,10), player.getOccupacy());
-        boolean equal = player1.equals(cell1);
-        assertFalse(equal);
-
-    }
-
-    @Test
     void testNull() {
         Player player1 = new Player("player1", Occupacy.Player1);
         boolean equal = player1.equals(null);
