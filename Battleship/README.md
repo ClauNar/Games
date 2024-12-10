@@ -1,7 +1,9 @@
 # Battleship Game
 
 ## Overview
-Welcome to the Battleship Game! This is a console-based game where you can challenge the computer to a classic game of Battleship. Strategically place your ships and attack the enemy grid to sink all of their ships before they sink yours.
+Welcome to the Battleship Game! 
+
+This is a console-based game where you can challenge the computer to a classic game of Battleship. Strategically place your ships and attack the enemy grid to sink all of their ships before they sink yours.
 
 ---
 
@@ -82,13 +84,14 @@ The game ends when one player's fleet is completely sunk.
 Below are some screenshots showcasing the gameplay:
 
 First, if the user requires it, the game provides a brief overview of the rules:
-![begin_game.png](screenshots%2Fbegin_game.png)
+![rules.png](screenshots%2Frules.png)
 
 Then, the user places their ships on the grid one at a time. 
 Each placement must adhere to the following constraints:
 - Ships must be placed in the correct format and length.
 - Placement must be either horizontal or vertical.
 - Ships must stay within the grid boundaries and must not overlap.
+
 ![placement.png](screenshots%2Fplacement.png)
 
 The game begins, with either the user or the computer randomly selected to make the first move:
