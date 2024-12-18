@@ -36,7 +36,7 @@ public class Game {
         }
     }
 
-    public void testSetUP(){
+    public void testSetUp(){
         pointsToWin = 1200;
         numberOfPlayers = 2;
         Player player1 = new Player("testPlayer1");

@@ -8,7 +8,7 @@ public class Main {
         System.out.println("**********************************\n");
 
         Game tutto = new Game();
-        tutto.testSetUP();
+        tutto.setUp();
         tutto.run();
         tutto.awardCeremony();
     }
