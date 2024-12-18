@@ -44,8 +44,8 @@ public enum DieSide {
             "└─────────┘"
     );
     public final int value;
-    private int singlePoints;
-    private int tripletPoints;
+    private final int singlePoints;
+    private final int tripletPoints;
     public final String line1;
     public final String line2;
     public final String line3;
@@ -72,13 +72,5 @@ public enum DieSide {
 
     public int getSinglePoints() {
         return singlePoints;
-    }
-
-    public void printDie(){
-        System.out.println(line1);
-        System.out.println(line2);
-        System.out.println(line3);
-        System.out.println(line4);
-        System.out.println(line5);
     }
 }

@@ -4,7 +4,6 @@ import java.util.Iterator;
 import java.util.Random;
 
 public class Die implements Comparable<Die>, Iterable<Die> {
-    Random random;
     DieSide dieSideUp;
 
     public Die() {

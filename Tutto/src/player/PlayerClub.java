@@ -1,10 +1,9 @@
 package main.java.com.tuttogame.player;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class PlayerClub {
-    private ArrayList<Player> players;
+    private final ArrayList<Player> players;
 
     public PlayerClub() {
         players = new ArrayList<>();

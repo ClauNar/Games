@@ -6,9 +6,6 @@ public class TurnResults {
     private int points;
     private int nrOfTutto;
 
-    public void TurnResults(){
-        resetButKeepPoints();
-    }
     public void reset(){
         resetButKeepPoints();
         points = 0;

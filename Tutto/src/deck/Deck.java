@@ -2,22 +2,19 @@ package main.java.com.tuttogame.deck;
 
 import main.java.com.tuttogame.card.*;
 
-import java.util.Collections;
-import java.util.List;
-
 public class Deck {
-    private CardStack cardStack;
-    private int nrCloverleafCards;
-    private int nrFireworksCards;
-    private int nrStopCards;
-    private int nrStraightCards;
-    private int nrPulsMinusCards;
-    private int nrTimesTwoCards;
-    private int nrBonus200Cards;
-    private int nrBonus300Cards;
-    private int nrBonus400Cards;
-    private int nrBonus500Cards;
-    private int nrBonus600Cards;
+    private final CardStack cardStack;
+    private final int nrCloverleafCards;
+    private final int nrFireworksCards;
+    private final int nrStopCards;
+    private final int nrStraightCards;
+    private final int nrPulsMinusCards;
+    private final int nrTimesTwoCards;
+    private final int nrBonus200Cards;
+    private final int nrBonus300Cards;
+    private final int nrBonus400Cards;
+    private final int nrBonus500Cards;
+    private final int nrBonus600Cards;
 
     public Deck(int nrCloverleafCards, int nrFireworksCards, int nrStopCards, int nrStraightCards, int nrPulsMinusCards,
                 int nrTimesTwoCards, int nrBonus200Cards, int nrBonus300Cards, int nrBonus400Cards, int nrBonus500Cards,

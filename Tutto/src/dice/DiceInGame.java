@@ -102,7 +102,7 @@ public class DiceInGame {
         for (int i = 0; i < validSinglets.diceCount(); i++) {
             System.out.print(validSinglets.getDice(i).getDiceSideUp().getValue() + " ");
         }
-        System.out.println("");
+        System.out.println();
     }
 
 

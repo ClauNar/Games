@@ -1,7 +1,7 @@
 package main.java.com.tuttogame.player;
 
 public class Player implements Comparable<Player> {
-    private String name;
+    private final String name;
     private int points;
 
     public Player(String name){

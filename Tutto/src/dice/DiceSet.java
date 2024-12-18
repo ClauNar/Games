@@ -3,7 +3,6 @@ package main.java.com.tuttogame.dice;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
 
 public class DiceSet implements Iterator<Die> {
     ArrayList<Die> dieSet;

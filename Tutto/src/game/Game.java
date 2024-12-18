@@ -13,10 +13,10 @@ import java.util.Scanner;
 
 public class Game {
     private Player playingPlayer;
-    private PlayerClub playerClub;
+    private final PlayerClub playerClub;
     private int numberOfPlayers;
     private int pointsToWin;
-    private Deck deck;
+    private final Deck deck;
     private AbstractCard currentCard;
     public Game(){
         playerClub = new PlayerClub();
